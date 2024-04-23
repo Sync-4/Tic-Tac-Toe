@@ -47,7 +47,7 @@ The Tic Tac Toe is a great way to pass your free time whether you're standing in
 	<br>
 	<br>
 	<img src="https://enterprise.github.com/assets/spinners/octocat-spinner-128-26a44333917854c6794d55eac947b1277fced54f1f60c5df5d93431db8753bc5.gif" width="40" height="40">
-	<p>Loading</p>
+	<p>Feel free to reuse the code and make the changes as your wish...</p>
 	<br>
 	<br>
 	<br>
