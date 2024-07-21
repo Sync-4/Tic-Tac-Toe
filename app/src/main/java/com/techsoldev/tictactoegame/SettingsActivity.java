@@ -126,7 +126,7 @@ public class SettingsActivity extends AppCompatActivity {
 
                /*
                 try {
-                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:" + "abdullahsh@hotmail.com"));
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:" + "  "));
 
                     intent.putExtra(Intent.EXTRA_TEXT, "your_text");
                     startActivity(intent);
@@ -164,7 +164,7 @@ public class SettingsActivity extends AppCompatActivity {
     public void composeEmail( String subject) {
         try {
         Intent intent = new Intent(Intent.ACTION_SENDTO);
-        intent.setData(Uri.parse("mailto:abdullahsh123@hotmail.com")); // only email apps should handle this
+        intent.setData(Uri.parse("mailto: ")); // only email apps should handle this
         intent.putExtra(Intent.EXTRA_SUBJECT, subject);
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(Intent.createChooser(intent, "Send feedback"));
